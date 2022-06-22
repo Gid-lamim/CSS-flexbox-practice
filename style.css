@@ -247,3 +247,55 @@ header .menu{
     margin-bottom: 50px;
 }
 
+/*mobile*/
+@media(max-width:712px){
+    .flex-container{
+        flex-direction: column;
+    }  
+
+
+    #quem-somos{
+        flex-direction: column;
+        text-align:justify;
+    }
+    #quem-somos img{
+        min-width: 127px;
+        width: 271px;
+    }   
+
+
+
+    #servicos h2{
+        text-align: center;
+    }
+    .list-servicos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-servico img{
+        width: 30%;
+    }
+    .item-servico{
+        margin-bottom: 15px;
+        flex: 1;
+        margin-right: 25px;
+        margin-left: 25px;
+        max-width: 238px;
+        padding: 10px;
+    }
+
+
+
+
+
+    #planos h2{
+        text-align: center;
+    }
+    .list-planos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-planos{
+        margin-bottom: 15px;
+    }
+}
